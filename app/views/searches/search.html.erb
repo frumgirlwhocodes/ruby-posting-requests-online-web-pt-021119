@@ -17,7 +17,9 @@
        <%= form_tag '/tips' do %>
           <%= hidden_field_tag :venue_id, venue["id"] %>
           Add tip: <%= text_field_tag :tip %><%= submit_tag "Add Tip" %>
-        <% end %>
+      <% end %>
       </li>
     <% end %>
     </ul>
+  <% end %>
+</div>
